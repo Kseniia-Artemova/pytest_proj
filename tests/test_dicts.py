@@ -18,3 +18,8 @@ def test_get_val_default_value():
     current_dict = {1: "one", 2: "two", 3: "three", 4: "four"}
     assert get_val(current_dict, 1, default="tig") == "one"
 
+
+def test_get_val_empty_dict():
+    current_dict = {}
+    assert get_val(current_dict, 5) == "git"
+
