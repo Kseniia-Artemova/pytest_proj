@@ -181,7 +181,7 @@ testing = ["argcomplete", "hypothesis (>=3.56)", "mock", "nose", "pygments (>=2.
 name = "pytest-cov"
 version = "4.0.0"
 description = "Pytest plugin for measuring coverage."
-category = "main"
+category = "dev"
 optional = false
 python-versions = ">=3.6"
 files = [
@@ -211,4 +211,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "846cfe0d26f34c9ee5c1c652e6262db91b6637e712cb4eb93dc87f070a4a69f5"
+content-hash = "c17d43e349ab14f19ea875f1303a2c63d7c49d31e209c1427c2f6680c4d41aaa"
